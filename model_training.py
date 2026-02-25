@@ -1,4 +1,4 @@
-# src/model_training.py
+# model_training.py
 
 from pyspark.sql import SparkSession
 from pyspark.ml import Pipeline
@@ -55,8 +55,6 @@ def main():
 
         f1 = evaluator.evaluate(preds)
         mlflow.log_metric("f1", f1)
-
-        mlflow.spark.log_model(model, "model")
 
         print(f"Validation F1: {f1}")
 

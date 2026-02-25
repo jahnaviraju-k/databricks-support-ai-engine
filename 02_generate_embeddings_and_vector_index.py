@@ -2,8 +2,8 @@
 
 from pyspark.sql import functions as F, types as T
 
-import src.config as config
-from src.embedding_utils import get_text_embedding
+import config
+from embedding_utils import get_text_embedding
 
 gold_df = spark.table(config.GOLD_FEATURE_TABLE).select("ticket_id", "text", "category", "priority")
 

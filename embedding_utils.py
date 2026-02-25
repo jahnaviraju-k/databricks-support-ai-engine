@@ -1,4 +1,4 @@
-# src/embedding_utils.py
+# embedding_utils.py
 
 from typing import List
 

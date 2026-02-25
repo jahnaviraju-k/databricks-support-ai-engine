@@ -1,6 +1,6 @@
 # Databricks notebook: 04_rag_inference_notebook
 
-from src.rag_service import answer_ticket
+from rag_service import answer_ticket
 
 query_text = "I am being charged twice for my monthly subscription, please help."
 result = answer_ticket(query_text)

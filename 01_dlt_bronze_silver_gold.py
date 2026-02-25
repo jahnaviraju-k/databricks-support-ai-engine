@@ -1,7 +1,7 @@
 # Databricks notebook: 01_dlt_bronze_silver_gold
 
 from pyspark.sql import functions as F
-import src.config as config
+import config
 
 # Ensure bronze table exists (schema comes from streaming job)
 spark.sql(f"CREATE TABLE IF NOT EXISTS {config.BRONZE_TABLE} USING delta AS SELECT * FROM VALUES (1) WHERE 1=0")
