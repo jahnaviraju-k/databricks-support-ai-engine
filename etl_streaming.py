@@ -1,4 +1,4 @@
-# src/etl_streaming.py
+# etl_streaming.py
 
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, current_timestamp, input_file_name

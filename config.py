@@ -1,4 +1,4 @@
-# src/config.py
+# config.py
 
 BRONZE_TABLE = "support_tickets_bronze"
 SILVER_TABLE = "support_tickets_silver"

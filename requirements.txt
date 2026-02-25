@@ -1,0 +1,6 @@
+# Core dependencies (pre-installed on Databricks Runtime)
+pyspark>=3.4.0
+mlflow>=2.5.0
+
+# Additional (if running outside Databricks)
+delta-spark>=2.4.0

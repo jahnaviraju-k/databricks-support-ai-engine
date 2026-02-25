@@ -1,4 +1,4 @@
-# src/vector_index_utils.py
+# vector_index_utils.py
 
 from typing import List
 from pyspark.sql import DataFrame, functions as F, types as T
